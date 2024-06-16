@@ -87,14 +87,14 @@ public class VisualizacaoOrdem {
 ```java
 
 public void preencherTabela {
-            clnNumero.setCellValueFactory(new PropertyValueFactory<VisualizacaoOrdem, Integer>("id"));
-			clnCliente.setCellValueFactory(new PropertyValueFactory<VisualizacaoOrdem, Pessoa>("cliente"));
-			clnServico.setCellValueFactory(new PropertyValueFactory<VisualizacaoOrdem, String>("servico"));
-			clnVeiculo.setCellValueFactory(new PropertyValueFactory<VisualizacaoOrdem, String>("veiculo"));
-			clnChassis.setCellValueFactory(new PropertyValueFactory<VisualizacaoOrdem, String>("chassis"));
-			clnPlaca.setCellValueFactory(new PropertyValueFactory<VisualizacaoOrdem, String>("placa"));
-			clnDataEntrada.setCellValueFactory(new PropertyValueFactory<VisualizacaoOrdem, String>("data_entrada"));
-			clnDataPrometida.setCellValueFactory(new PropertyValueFactory<VisualizacaoOrdem, String>("data_prometida"));
+            clnNumero.setCellValueFactory(new PropertyValueFactory<VisualizacaoOrdem, Integer>("ordemId"));
+			clnCliente.setCellValueFactory(new PropertyValueFactory<VisualizacaoOrdem, Pessoa>("pessoaNome"));
+			clnServico.setCellValueFactory(new PropertyValueFactory<VisualizacaoOrdem, String>("servicoDescricao"));
+			clnVeiculo.setCellValueFactory(new PropertyValueFactory<VisualizacaoOrdem, String>("veiculoModelo"));
+			clnChassis.setCellValueFactory(new PropertyValueFactory<VisualizacaoOrdem, String>("veiculoChassis"));
+			clnPlaca.setCellValueFactory(new PropertyValueFactory<VisualizacaoOrdem, String>("veiculoPlaca"));
+			clnDataEntrada.setCellValueFactory(new PropertyValueFactory<VisualizacaoOrdem, String>("dataEntradaFormatada"));
+			clnDataPrometida.setCellValueFactory(new PropertyValueFactory<VisualizacaoOrdem, String>("dataPrometidaFormatada"));
 
             ObservableList<TableViewProperty> listaAberto = FXCollections
 								.observableArrayList(buscarOrcamentoAbertoNumero(txtBuscar));
@@ -151,7 +151,7 @@ public void preencherTabela {
 *Figura 11: Tela responsável por possuir todos os registros de pagamentos registrados para receber*
 
 ### Link do Video de Demonstração
-![Video](https://drive.google.com/drive/folders/1VfpSla1j0AR7JTGxGFApQl8s6yv4AQVo/apresentacao-sistema-ordem-servico.mp4)
+![Video]([https://drive.google.com/drive/folders/1VfpSla1j0AR7JTGxGFApQl8s6yv4AQVo/apresentacao-sistema-ordem-servico.mp4](https://drive.google.com/drive/folders/1VfpSla1j0AR7JTGxGFApQl8s6yv4AQVo))
 
 
 ## Conclusão 
