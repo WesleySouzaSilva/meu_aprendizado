@@ -108,6 +108,7 @@ public void preencherTabela {
 
 ### Tela Login
 ![Tela Login](/imagens/tela_login.PNG)
+
 *Figura 1: Tela de Login para acessar a ferramenta*
 
 ### Tela Home
@@ -136,14 +137,17 @@ public void preencherTabela {
 
 ### Tela Nova Ordem de Serviço
 ![Tela Nova Ordem de Serviço](/imagens/tela_nova_ordem_servico.PNG)
+
 *Figura 8: Tela responsável por criar uma nova ordem de serviço*
 
 ### Tela Nova Ordem de Serviço 1
 ![Tela Nova Ordem de Serviço 1](/imagens/tela_nova_ordem_servico_1.PNG)
+
 *Figura 9: Tela responsável por criar uma nova ordem de serviço*
 
 ### Tela Relatório de Despesa
 ![Tela Relatório de Despesa](/imagens/tela_relatorio_despesa.PNG)
+
 *Figura 10: Tela responsável por possuir todos os registros de despesas registradas*
 
 ### Tela Relatório de Receita
@@ -151,7 +155,7 @@ public void preencherTabela {
 *Figura 11: Tela responsável por possuir todos os registros de pagamentos registrados para receber*
 
 ### Link do Video de Demonstração
-![Video]([https://drive.google.com/drive/folders/1VfpSla1j0AR7JTGxGFApQl8s6yv4AQVo/apresentacao-sistema-ordem-servico.mp4])
+[![Assistir ao Vídeo](https://drive.google.com/uc?export=view&id=1x_GjdwsO35NOKbygtu7FJbyxpoLVbL0a)](https://drive.google.com/file/d/1x_GjdwsO35NOKbygtu7FJbyxpoLVbL0a/view?usp=sharing "Clique aqui para assistir ao vídeo")
 
 
 ## Conclusão 
