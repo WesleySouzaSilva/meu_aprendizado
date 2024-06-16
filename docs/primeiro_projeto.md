@@ -107,47 +107,47 @@ public void preencherTabela {
 ## Galeria de Imagens
 
 ### Tela Login
-![Tela Login](images/tela_login.png)
+![Tela Login](images/tela_login.PNG)
 *Figura 1: Tela de Login para acessar a ferramenta*
 
 ### Tela Home
-![Tela Home](images/tela_home.png)
+![Tela Home](images/tela_home.PNG)
 *Figura 2: Tela Principal do sistema, contendo uma tabela principal, menus e botões de navegação*
 
 ### Tela Home 1
-![Tela Home 1](imagens/tela_home_1.png)
+![Tela Home 1](imagens/tela_home_1.PNG)
 *Figura 3: Tela Principal do sistema, na aba lista, onde mostra as principais informações para a primeira visualização*
 
 ### Tela Home 2
-![Tela Home 2](imagens/tela_home_2.png)
+![Tela Home 2](imagens/tela_home_2.PNG)
 *Figura 4: Tela Principal do sistema, na aba Peças/Serviços, onde podemos ver as peças que foram registradas, assim como os serviços*
 
 ### Tela Home 3
-![Tela Home 3](imagens/tela_home_3.png)
+![Tela Home 3](imagens/tela_home_3.PNG)
 *Figura 5: Tela Principal do sistema, na aba Cliente podemos visualizar suas informações, sem precisar ir no menu de clientes*
 
 ### Tela Home 4
-![Tela Home 4](imagens/tela_home_4.png)
+![Tela Home 4](imagens/tela_home_4.PNG)
 *Figura 6: Tela Principal do sistema, na aba Veículo podemos visualizar suas informações que foram cadastradas no sistema*
 
 ### Tela Home 5
-![Tela Home 5](imagens/tela_home_5.png)
+![Tela Home 5](imagens/tela_home_5.PNG)
 *Figura 7: Tela Principal do sistema, na aba Fechamento podemos visualizar um resumo geral da ordem de serviço ou orçamento*
 
 ### Tela Nova Ordem de Serviço
-![Tela Nova Ordem de Serviço](imagens/tela_nova_ordem_servico.png)
+![Tela Nova Ordem de Serviço](imagens/tela_nova_ordem_servico.PNG)
 *Figura 8: Tela responsável por criar uma nova ordem de serviço*
 
 ### Tela Nova Ordem de Serviço 1
-![Tela Nova Ordem de Serviço 1](imagens/tela_nova_ordem_servico_1.png)
+![Tela Nova Ordem de Serviço 1](imagens/tela_nova_ordem_servico_1.PNG)
 *Figura 9: Tela responsável por criar uma nova ordem de serviço*
 
 ### Tela Relatório de Despesa
-![Tela Relatório de Despesa](imagens/tela_relatorio_despesa.png)
+![Tela Relatório de Despesa](imagens/tela_relatorio_despesa.PNG)
 *Figura 10: Tela responsável por possuir todos os registros de despesas registradas*
 
 ### Tela Relatório de Receita
-![Tela Relatório de Receita](imagens/tela_relatorio_receita.png)
+![Tela Relatório de Receita](imagens/tela_relatorio_receita.PNG)
 *Figura 11: Tela responsável por possuir todos os registros de pagamentos registrados para receber*
 
 ### Link do Video de Demonstração
