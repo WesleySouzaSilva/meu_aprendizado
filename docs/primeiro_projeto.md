@@ -64,7 +64,7 @@ WHERE status = 'Aberto'
 
 ```
 
-### Exemplo de Java
+### Exemplo da Classe Java Preenchimento da Tabela Principal
 ```java
 public class VisualizacaoOrdem {
     private Integer ordemId;
@@ -86,7 +86,7 @@ public class VisualizacaoOrdem {
 ### Exemplo de Preenchimento da tabela principal
 ```java
 
-public void preencherTabela {
+public void preencherTabelaStatus (String status) {
             clnNumero.setCellValueFactory(new PropertyValueFactory<VisualizacaoOrdem, Integer>("ordemId"));
 			clnCliente.setCellValueFactory(new PropertyValueFactory<VisualizacaoOrdem, Pessoa>("pessoaNome"));
 			clnServico.setCellValueFactory(new PropertyValueFactory<VisualizacaoOrdem, String>("servicoDescricao"));
@@ -96,8 +96,8 @@ public void preencherTabela {
 			clnDataEntrada.setCellValueFactory(new PropertyValueFactory<VisualizacaoOrdem, String>("dataEntradaFormatada"));
 			clnDataPrometida.setCellValueFactory(new PropertyValueFactory<VisualizacaoOrdem, String>("dataPrometidaFormatada"));
 
-            ObservableList<TableViewProperty> listaAberto = FXCollections
-								.observableArrayList(buscarOrcamentoAbertoNumero(txtBuscar));
+            ObservableList<VisualizacaoOrdem> listaAberto = FXCollections
+								.observableArrayList(visualizacaoOrdemDAO.buscarOrdemComStatus(status));
 						tblLista.setItems(listaAberto);
 
 }            
@@ -155,7 +155,7 @@ public void preencherTabela {
 *Figura 11: Tela responsável por possuir todos os registros de pagamentos registrados para receber*
 
 ### Link do Video de Demonstração
-[![Assistir ao Vídeo](https://drive.google.com/uc?export=view&id=1x_GjdwsO35NOKbygtu7FJbyxpoLVbL0a)](https://drive.google.com/file/d/1x_GjdwsO35NOKbygtu7FJbyxpoLVbL0a/view?usp=sharing "Clique aqui para assistir ao vídeo")
+[![Assistir ao Vídeo de demonstração do Sistema](https://drive.google.com/uc?export=view&id=1x_GjdwsO35NOKbygtu7FJbyxpoLVbL0a)](https://drive.google.com/file/d/1x_GjdwsO35NOKbygtu7FJbyxpoLVbL0a/view?usp=sharing "Clique aqui para assistir ao vídeo")
 
 
 ## Conclusão 
