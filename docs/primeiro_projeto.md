@@ -107,11 +107,11 @@ public void preencherTabela {
 ## Galeria de Imagens
 
 ### Tela Login
-![Tela Login](/images/tela_login.PNG)
+![Tela Login](/imagens/tela_login.PNG)
 *Figura 1: Tela de Login para acessar a ferramenta*
 
 ### Tela Home
-![Tela Home](/images/tela_home.PNG)
+![Tela Home](/imagens/tela_home.PNG)
 *Figura 2: Tela Principal do sistema, contendo uma tabela principal, menus e botões de navegação*
 
 ### Tela Home 1
