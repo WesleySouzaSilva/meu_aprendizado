@@ -40,6 +40,9 @@ Primeira API REST profissional do portfólio, desenvolvida com Java 11 + Spring 
 ### [Sistema de Revenda (sistema_revendedora)](docs/6_projeto.md)
 Sistema-base da família de sistemas para revendedoras, em Java 8 + JavaFX + JDBC + MySQL + JasperReports. Cobre o ciclo completo da revenda de veículos: clientes (PF e PJ), veículos, fluxo de vendas, financeiro, despesas, funcionários, CRM de clientes interessados e relatórios gerenciais (DRE, comissão de vendedores).
 
+### [Atualizador via Dropbox (download_api_dropbox)](docs/7_projeto.md)
+Atualizador automático desktop em Java 8 + Swing + Dropbox Core SDK. Verifica se há versão mais recente do sistema na nuvem, compara a data do arquivo local com a metadata do Dropbox e, quando há atualização, baixa o arquivo em thread separada (SwingWorker) com diálogo modal e barra de progresso. Configuração externa via `config.properties` + `atualizador.xml`, reaproveitada para múltiplos clientes.
+
 ## Contatos e Links
 - [LinkedIn](https://www.linkedin.com/in/wesley-souza-b79841191/)
 - [Portfólio](https://github.com/WesleySouzaSilva)
