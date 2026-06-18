@@ -43,6 +43,9 @@ Sistema-base da família de sistemas para revendedoras, em Java 8 + JavaFX + JDB
 ### [Atualizador via Dropbox (download_api_dropbox)](docs/7_projeto.md)
 Atualizador automático desktop em Java 8 + Swing + Dropbox Core SDK. Verifica se há versão mais recente do sistema na nuvem, compara a data do arquivo local com a metadata do Dropbox e, quando há atualização, baixa o arquivo em thread separada (SwingWorker) com diálogo modal e barra de progresso. Configuração externa via `config.properties` + `atualizador.xml`, reaproveitada para múltiplos clientes.
 
+### [Sistema de Controle de Frota e Turismo (sistema_controle_frota_dpaula)](docs/8_projeto.md)
+Sistema desktop em Java 8 + JavaFX + JDBC + MySQL + JasperReports para gestão integrada de frota e turismo. Cobre cadastro de clientes PF/PJ, veículos com custos específicos (combustível, IPVA, manutenção, pedágio, seguro, vistoria, revisão preventiva, parcelas), agenda de turismo, funcionários, despesas, contas a pagar/receber e conjunto amplo de relatórios operacionais e gerenciais (DRE, agenda, veículo por tipo de custo).
+
 ## Contatos e Links
 - [LinkedIn](https://www.linkedin.com/in/wesley-souza-b79841191/)
 - [Portfólio](https://github.com/WesleySouzaSilva)
