@@ -46,6 +46,7 @@ O projeto segue a mesma estrutura em camadas da família de sistemas desktop:
 A aplicação cobre o ciclo completo de uma revenda de veículos:
 - **Cadastro de clientes PF e PJ** (com endereço, telefones, e-mails).
 - **Cadastro de veículos** (com histórico, IPVA, Fipe, prevenções).
+- **CRM de clientes interessados em veículos**: o vendedor registra o cliente com interesse informando o modelo de veículo desejado e a faixa de preço. Quando um veículo é cadastrado no sistema e se enquadra no modelo ou na faixa de preço de algum cliente interessado, o sistema emite um alerta de interesse, aproximando o vendedor do cliente no momento certo da oferta.
 - **Rotas e escalas** (entrega de veículos).
 - **Fluxo de venda** (orçamento → venda → entrega).
 - **Pagamentos** (de cliente e de veículo).
