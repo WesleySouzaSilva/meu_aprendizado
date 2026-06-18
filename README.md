@@ -3,7 +3,7 @@
 ## Índice
 1. [Introdução](#introdução)
 2. [Primeiros Passos](#primeiros-passos)
-3. [Primeiro Projeto](#primeiro-projeto)
+3. [Projetos Documentados](#projetos-documentados)
 4. [Contatos e Links](#contatos-e-links)
 
 ## Introdução
@@ -25,9 +25,20 @@ Com essas habilidades adquiridas, comecei a oferecer meus serviços aos meus cli
 ### [Introdução aos Primeiros Passos]
 Neste momento (2018), comecei a me interessar por software e busquei opções na minha cidade. Não encontrei, então procurei na cidade vizinha, onde encontrei um curso de Java com duração de um ano. Iniciei o curso em 2017 e, em 2018, comecei a aplicar o que havia aprendido. Assim, criei os programas para minha empresa no meu setor e meu primeiro projeto para um cliente de software, conforme informado na [Introdução](#introdução).
 
-## Primeiro Projeto
+## Projetos Documentados
+Abaixo estão os projetos do portfólio já documentados neste repositório. Cada um tem um arquivo próprio com o contexto, a stack, as funcionalidades e os aprendizados do desenvolvimento.
+
 ### [Sistema para Oficinas Mecânicas](docs/primeiro_projeto.md)
-Meu primeiro projeto foi o sistema de gestão para oficinas mecânicas, no qual tive muito empenho e dedicação, e também enfrentei alguns desafios. O projeto era um sistema desktop, desenvolvido com Java 8, JavaFX (interface gráfica da aplicação), Scene Builder (para efetuar os protótipos das telas em FXML), MySQL como banco de dados e Jasper Reports para gerar os relatórios do sistema. [Leia mais](docs/primeiro_projeto.md)
+Meu primeiro projeto foi o sistema de gestão para oficinas mecânicas, no qual tive muito empenho e dedicação, e também enfrentei alguns desafios. O projeto era um sistema desktop, desenvolvido com Java 8, JavaFX (interface gráfica da aplicação), Scene Builder (para efetuar os protótipos das telas em FXML), MySQL como banco de dados e Jasper Reports para gerar os relatórios do sistema.
+
+### [Sistema Oficina — Projeto Base](docs/9_projeto.md)
+Sistema desktop em Java 8 + JavaFX + JDBC + MySQL + JasperReports que serviu de molde para todas as variações posteriores voltadas a outros clientes do segmento de oficinas mecânicas. Cobre orçamento, ordem de serviço, controle de peças, mão de obra, clientes, veículos, contas a pagar/receber e relatórios.
+
+### [API de Nutrição (api-mbs)](docs/13_projeto.md)
+Primeira API REST profissional do portfólio, desenvolvida com Java 11 + Spring Boot 2.7.2 + Spring Data JPA + Spring Security (JWT) + MySQL. Back-end de um aplicativo de controle alimentar, com autenticação stateless, documentação Swagger e DTOs de inserção/visualização separados.
+
+### [Sistema de Revenda (sistema_revendedora)](docs/6_projeto.md)
+Sistema-base da família de sistemas para revendedoras, em Java 8 + JavaFX + JDBC + MySQL + JasperReports. Cobre o ciclo completo da revenda de veículos: clientes (PF e PJ), veículos, fluxo de vendas, financeiro, despesas, funcionários, CRM de clientes interessados e relatórios gerenciais (DRE, comissão de vendedores).
 
 ## Contatos e Links
 - [LinkedIn](https://www.linkedin.com/in/wesley-souza-b79841191/)
