@@ -49,6 +49,9 @@ Sistema desktop em Java 8 + JavaFX + JDBC + MySQL + JasperReports para gestão i
 ### [Sistema para Funilaria (sistema_funilaria_leandro)](docs/10_projeto.md)
 Sistema desktop em Java 8 + JavaFX + JDBC + MySQL + JasperReports para gestão de funilaria, derivado da base consolidada de oficinas mecânicas. Cobre orçamento, ordem de serviço, peças com estoque, materiais avulsos, agenda, funcionários, comissões, despesas, pagamento de funcionários e relatórios operacionais e gerenciais (orçamento, OS, comissão, pagamento, serviço, lista de material).
 
+### [Sistema para Jardinagem (sistema_jardinagem_samuel)](docs/11_projeto.md)
+Sistema desktop em Java 8 + JavaFX + JDBC + MySQL + JasperReports para gestão de negócio de jardinagem e paisagismo, derivado da base consolidada de oficinas mecânicas. Cobre orçamento, ordem de serviço, agenda, retorno de clientes, controle de itens, funcionários, despesas, pagamento de funcionários e relatórios operacionais e gerenciais (orçamento, OS, pagamento, retorno, serviço).
+
 ## Contatos e Links
 - [LinkedIn](https://www.linkedin.com/in/wesley-souza-b79841191/)
 - [Portfólio](https://github.com/WesleySouzaSilva)
