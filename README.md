@@ -58,6 +58,9 @@ Aplicação desktop em Java 8 + JavaFX/FXML + Apache POI + MySQL/JDBC para centr
 ### [Sistema para Hotel/Petshop (sistema_hotel_pet)](docs/14_projeto.md)
 Aplicação desktop em Java 8 + JavaFX/FXML + JDBC + MySQL + JasperReports para gestão integrada de hotel/petshop, cobrindo hospedagem de pets (para clientes que viajam), banho e tosa, venda de produtos, agenda com ciclo de vida (reservado/hospedado/finalizado), financeiro com contas a pagar/receber e parcelamento, e relatórios gerenciais (DRE, agenda, pagamentos, lista de pets). Modelo de domínio coeso via DAO genérico reaproveitado por 18 entidades.
 
+### [Robô de Coleta de Telefones via URL (scraping-telefones-url)](docs/18_projeto.md)
+Robô de web scraping em Python 3 com `requests` + `BeautifulSoup` que coleta nome, endereço e telefone de empresas a partir de uma lista de URLs (`dados_url_site.txt`) e consolida tudo em um único arquivo `.txt` (`lojas_com_telefones.txt`) consumido pelo software principal do cliente. Foco em automação enxuta — o `.txt` é a "interface" com o sistema downstream, sem banco, API ou UI próprios. Primeiro contato com o ciclo `request → parse → find → get_text`, com fallback textual (`'X não encontrado'`) para campos ausentes na estrutura HTML alvo.
+
 ## Contatos e Links
 - [LinkedIn](https://www.linkedin.com/in/wesley-souza-b79841191/)
 - [Portfólio](https://github.com/WesleySouzaSilva)
