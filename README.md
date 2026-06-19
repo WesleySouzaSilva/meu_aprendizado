@@ -52,6 +52,9 @@ Sistema desktop em Java 8 + JavaFX + JDBC + MySQL + JasperReports para gestão d
 ### [Sistema para Jardinagem (sistema_jardinagem_samuel)](docs/11_projeto.md)
 Sistema desktop em Java 8 + JavaFX + JDBC + MySQL + JasperReports para gestão de negócio de jardinagem e paisagismo, derivado da base consolidada de oficinas mecânicas. Cobre orçamento, ordem de serviço, agenda, retorno de clientes, controle de itens, funcionários, despesas, pagamento de funcionários e relatórios operacionais e gerenciais (orçamento, OS, pagamento, retorno, serviço).
 
+### [Controle de Pedidos de Peças — Autopeças (controle_pedido_pecas_kugler)](docs/12_projeto.md)
+Aplicação desktop em Java 8 + JavaFX/FXML + Apache POI + MySQL/JDBC para centralizar requisições de peças exportadas de uma planilha Excel, filtrar por quantidade mínima em estoque e emitir relatório de saída de peças via `java.awt.print`. O "pedido" é tratado como visão filtrada em memória sobre as requisições importadas, sem entidade persistida.
+
 ## Contatos e Links
 - [LinkedIn](https://www.linkedin.com/in/wesley-souza-b79841191/)
 - [Portfólio](https://github.com/WesleySouzaSilva)
