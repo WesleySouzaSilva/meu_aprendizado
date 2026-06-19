@@ -55,6 +55,9 @@ Sistema desktop em Java 8 + JavaFX + JDBC + MySQL + JasperReports para gestão d
 ### [Controle de Pedidos de Peças — Autopeças (controle_pedido_pecas_kugler)](docs/12_projeto.md)
 Aplicação desktop em Java 8 + JavaFX/FXML + Apache POI + MySQL/JDBC para centralizar requisições de peças exportadas de uma planilha Excel, filtrar por quantidade mínima em estoque e emitir relatório de saída de peças via `java.awt.print`. O "pedido" é tratado como visão filtrada em memória sobre as requisições importadas, sem entidade persistida.
 
+### [Sistema para Hotel/Petshop (sistema_hotel_pet)](docs/14_projeto.md)
+Aplicação desktop em Java 8 + JavaFX/FXML + JDBC + MySQL + JasperReports para gestão integrada de hotel/petshop, cobrindo hospedagem de pets (para clientes que viajam), banho e tosa, venda de produtos, agenda com ciclo de vida (reservado/hospedado/finalizado), financeiro com contas a pagar/receber e parcelamento, e relatórios gerenciais (DRE, agenda, pagamentos, lista de pets). Modelo de domínio coeso via DAO genérico reaproveitado por 18 entidades.
+
 ## Contatos e Links
 - [LinkedIn](https://www.linkedin.com/in/wesley-souza-b79841191/)
 - [Portfólio](https://github.com/WesleySouzaSilva)
