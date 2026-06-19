@@ -46,6 +46,9 @@ Atualizador automático desktop em Java 8 + Swing + Dropbox Core SDK. Verifica s
 ### [Sistema de Controle de Frota e Turismo (sistema_controle_frota_dpaula)](docs/8_projeto.md)
 Sistema desktop em Java 8 + JavaFX + JDBC + MySQL + JasperReports para gestão integrada de frota e turismo. Cobre cadastro de clientes PF/PJ, veículos com custos específicos (combustível, IPVA, manutenção, pedágio, seguro, vistoria, revisão preventiva, parcelas), agenda de turismo, funcionários, despesas, contas a pagar/receber e conjunto amplo de relatórios operacionais e gerenciais (DRE, agenda, veículo por tipo de custo).
 
+### [Sistema para Funilaria (sistema_funilaria_leandro)](docs/10_projeto.md)
+Sistema desktop em Java 8 + JavaFX + JDBC + MySQL + JasperReports para gestão de funilaria, derivado da base consolidada de oficinas mecânicas. Cobre orçamento, ordem de serviço, peças com estoque, materiais avulsos, agenda, funcionários, comissões, despesas, pagamento de funcionários e relatórios operacionais e gerenciais (orçamento, OS, comissão, pagamento, serviço, lista de material).
+
 ## Contatos e Links
 - [LinkedIn](https://www.linkedin.com/in/wesley-souza-b79841191/)
 - [Portfólio](https://github.com/WesleySouzaSilva)
