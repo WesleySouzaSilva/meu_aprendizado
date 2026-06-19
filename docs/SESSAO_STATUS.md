@@ -1,7 +1,7 @@
 # Status da Sessão — Documentação do Portfólio
 
 **Data de fechamento da sessão:** 2026-06-19
-**Próxima ação:** retomar a partir do item 10 (docs/14_projeto.md — sistema_hotel_pet)
+**Próxima ação:** retomar a partir do item 11 (docs/15_projeto.md — test-planet-api)
 
 ---
 
@@ -10,9 +10,10 @@
 Pipeline de documentação dos repositórios do portfólio Wesley Souza Silva.
 Cada projeto vira um arquivo `docs/N_projeto.md` e entra via PR com merge manual.
 
-**Progresso:** 10 de 54 docs/N_projeto.md escritos (18,5%)
-**PRs abertas e mergeadas:** 9 (PRs #1 a #9)
+**Progresso:** 12 de 54 docs/N_projeto.md escritos (22,2%)
+**PRs abertas e mergeadas:** 11 (PRs #1 a #11)
 **PRs pendentes:** 0
+**Projetos pulados:** docs/15_projeto.md (test-planet-api), docs/16_projeto.md (sistema_licitacoes) e docs/17_projeto.md (sw-planet-api) — pulados em 2026-06-19 a pedido do Wesley; são apenas atividade de estudo (sw-planet-api é extensão de estudo do test-planet-api), sem cliente nem produção, não cabem na numeração de portfólio documentado.
 
 ---
 
@@ -72,12 +73,13 @@ Cada projeto vira um arquivo `docs/N_projeto.md` e entra via PR com merge manual
 | #7 | MA-7/sistema-funilaria-leandro-projeto | docs/10_projeto.md | sistema_funilaria_leandro |
 | #8 | MA-8/sistema-jardinagem-samuel-projeto | docs/11_projeto.md | sistema_jardinagem_samuel |
 | #9 | MA-9/controle-pedido-pecas-kugler-projeto | docs/12_projeto.md | controle_pedido_pecas_kugler |
+| #10 | MA-10/sistema-hotel-pet-projeto | docs/14_projeto.md | sistema_hotel_pet |
 
 > Obs.: PR #3 usou branch `MA-11/api-mbs-projeto` (não MA-3) — Wesley manteve o padrão antigo. Não tentar renomear.
 
 ---
 
-## Já Concluídos (10 docs, 9 PRs mergeadas)
+## Já Concluídos (11 docs, 10 PRs mergeadas)
 
 | # | Arquivo | Repo | PR | Commit | Status |
 |---|---|---|---|---|---|
@@ -91,14 +93,16 @@ Cada projeto vira um arquivo `docs/N_projeto.md` e entra via PR com merge manual
 | 8 | docs/11_projeto.md | sistema_jardinagem_samuel | #8 | cc0b50a | merged |
 | 9 | docs/12_projeto.md | controle_pedido_pecas_kugler | #9 | 8407de4 | merged |
 | 10 | docs/13_projeto.md | api-mbs | #3 | (na PR #3) | merged |
+| 11 | docs/14_projeto.md | sistema_hotel_pet | #10 | ab2ade6 | merged |
+| 12 | docs/18_projeto.md | scraping-telefones-url | #11 | 259bdc4 | merged |
 
 > Obs.: `docs/segundo_projeto.md` está no working tree mas não foi mergeado. Tratar como rascunho/preview, não conta como entregue.
 
 ---
 
-## Faltam (44 docs)
+## Faltam (43 docs)
 
-Próximo da fila: `docs/14_projeto.md` (sistema_hotel_pet).
+> Obs.: a numeração dos arquivos `docs/N_projeto.md` segue o plano consolidado — pular números concluídos já entregues. Próximo da fila: `docs/18_projeto.md` (scraping-telefones-url).
 
 | # | Arquivo | Repo | Categoria | Data repo |
 |---|---|---|---|---|
@@ -107,7 +111,7 @@ Próximo da fila: `docs/14_projeto.md` (sistema_hotel_pet).
 | 11 | docs/15_projeto.md | test-planet-api | APIs Estudo | 2022-12-06 |
 | 12 | docs/16_projeto.md | sistema_licitacoes | Sistemas Desktop | 2022-12-12 |
 | 13 | docs/17_projeto.md | sw-planet-api | APIs Estudo | 2023-04-23 |
-| 14 | docs/18_projeto.md | scraping-telefones-url | Robôs Scraping | 2023-04-28 |
+| 14 | ~~docs/18_projeto.md~~ | ~~scraping-telefones-url~~ | ~~Robôs Scraping~~ | 2023-04-28 | entregue (PR #11) |
 | 15 | docs/19_projeto.md | projeto-automacao-bling | Integrações | 2023-05-02 |
 | 16 | docs/20_projeto.md | PetronectAutomator | Integrações | 2023-05-02 |
 | 17 | docs/21_projeto.md | projeto-automacao-hltv | Integrações | 2023-05-10 |
@@ -147,7 +151,7 @@ Próximo da fila: `docs/14_projeto.md` (sistema_hotel_pet).
 | 51 | docs/55_projeto.md | upload_api_dropbox | Integrações | 2026-05-29 |
 | 52 | docs/56_projeto.md | divvysport-api | APIs Estudo | 2026-05-30 |
 
-> **Nota sobre numeração:** 3 a 5 (docs/3_projeto.md, docs/4_projeto.md, docs/5_projeto.md) e 10, 12, 14, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 60+ estão na fila. Já temos o 6, 7, 8, 9, 10, 11, 13. Falta 3, 4, 5 e 12 em diante. A numeração vem do **plano consolidado** em `pipeline-outputs/confirmar-arquitetura-54-projetos.md`.
+> **Nota sobre numeração:** 3 a 5 (docs/3_projeto.md, docs/4_projeto.md, docs/5_projeto.md) e 12, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 60+ estão na fila. Já temos o 6, 7, 8, 9, 10, 11, 13, 18. Pulados: 15, 16, 17 (estudo). Falta 3, 4, 5 e 12 em diante. A numeração vem do **plano consolidado** em `pipeline-outputs/confirmar-arquitetura-54-projetos.md`.
 
 ---
 
@@ -161,6 +165,7 @@ Próximo da fila: `docs/14_projeto.md` (sistema_hotel_pet).
 - `/tmp/repos/sistema_revendedora/`
 - `/tmp/repos/sistema_funilaria_leandro/`
 - `/tmp/repos/sistema_jardinagem_samuel/`
+- `/tmp/repos/sistema_hotel_pet/`
 
 Ao retomar, clonar o próximo repo da fila com:
 ```bash
@@ -191,4 +196,4 @@ cd /tmp/repos && git clone https://github.com/WesleySouzaSilva/<repo>.git
 
 ## Comando para Retomar (sugestão)
 
-Ao voltar, Wesley pode simplesmente dizer **"pode seguir"** e o agente pega o próximo da fila (`docs/12_projeto.md` — controle_pedido_pecas_kugler), faz as 4 perguntas, e executa o ciclo.
+Ao voltar, Wesley pode simplesmente dizer **"pode seguir"** e o agente pega o próximo da fila (`docs/19_projeto.md` — projeto-automacao-bling), faz as 4 perguntas, e executa o ciclo.
